@@ -1,0 +1,116 @@
+/*TITLE: app.css
+ AUTHOR: Thomas J. Byker (TJB)
+ CREATE DATE: 04.16.2013
+ PURPOSE: CSS code for Project 6 css
+ LAST MODIFIED ON: 04.21.2013
+ LAST MODIFIED BY: Thomas J. Byker (TJB)
+ MODIFICATION HISTORY: GITHub Initial Push to Server 4.21.2013
+ No Modifications*/
+
+@import url('font-awesome.css');
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* -----------------------------------------
+	Map
+----------------------------------------- */
+
+#map {
+	min-height: 300px;
+	width: 100%;
+	height: 100%;	
+}
+
+/* -----------------------------------------
+	Settings
+----------------------------------------- */
+
+.hidden-page {
+	margin: 0 10px;
+}
+
+.page {
+	-moz-box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0;
+	-webkit-box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0;
+	box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0;
+	border: 1px solid #52657f;
+	padding: 10px;
+	background: white;
+	margin: 10px;
+	border-radius: 8px;
+}
+
+
+.page img {
+	width: 100%;
+}
+
+.page p {
+	margin-bottom: 10px;
+	font-size: 14px;
+	line-height: 1.4em;
+	background-color: gray;
+}
+
+.page blockquote {
+	display: block;
+	clear: left;
+	font-style: italic;
+	font-family: Georgia;
+	line-height: 18px;
+	border-left: 4px solid rgb(225, 225, 225);
+	padding-left: 20px;
+	margin: 25px;
+	
+}
+.page p:last-child {
+	margin-bottom: 0;
+}
+
+.page form input,
+.page form textarea {
+	display: block;
+	padding: 7px 10px;
+	font-size: 14px;
+	margin-bottom: 10px;
+	width: 100%;
+	margin: 0 0 10px;
+	
+}
+
+#jqt .scroll button,
+#jqt .page button {
+	display: block;
+	width: 99%;
+	margin: 1em .5% 0 !important;
+}
+
+
+/* -----------------------------------------
+	Clearfix
+----------------------------------------- */
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
