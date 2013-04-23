@@ -3,9 +3,9 @@ TITLE: MyMap.js (For Project 6)
  AUTHOR: Thomas J. Byker (TJB)
  CREATE DATE: 04.16.2013
  PURPOSE: Javascript code that performs various functions for Project 6.   
- LAST MODIFIED ON: 04.21.2013
+ LAST MODIFIED ON: 04.22.2013
  LAST MODIFIED BY: Thomas J. Byker (TJB)
- MODIFICATION HISTORY: GITHub Initial Push to Server 4.21.2013
+ MODIFICATION HISTORY: GITHub Initial Push to Server 4.22.2013
 
 ***************************************/
 
